@@ -12,12 +12,14 @@ namespace VentaRopaMayorista.model
         private string nombre;
         private string apellido;
         private List<Cotizacion> historicoCotizaciones;
+        private Tienda tienda;
 
-        public Vendedor(int codigo, string nombre, string apellido)
+        public Vendedor(int codigo, string nombre, string apellido, Tienda tienda)
         {
             this.codigo = codigo;
             this.nombre = nombre;
             this.apellido = apellido;
+            this.tienda = tienda;
         }
 
         public void RegistrarCotizacion(Cotizacion cotizacion)
