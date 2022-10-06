@@ -41,37 +41,44 @@ namespace VentaRopaMayorista.presenter
 
             if (cantidadVacia != true && precioVacio != true)
             {
+                bool conversionPrecioValido = true;
+                bool conversionCantidadValida = true;
                 if (!ConversorUtil.ValidarConversion(precioUnitario, "float"))
                 {
                     mensajeResultadoValidacion += "Precio Unitario Inválido. Ingrese valores aceptables.\n";
                     sonCamposValidos = false;
+                    conversionPrecioValido = false;
                 }
 
                 if (!ConversorUtil.ValidarConversion(cantidadSolicitada, "int"))
                 {
                     mensajeResultadoValidacion += "Cantidad solicitada Inválida. Ingrese valores aceptables.\n";
                     sonCamposValidos = false;
+                    conversionCantidadValida = false;
                 }
-                else
+
+                if(conversionCantidadValida==true && conversionPrecioValido == true)
                 {
                     if (ConversorUtil.ConvertirStringToInt(cantidadSolicitada) > ConversorUtil.ConvertirStringToInt(unidadesDisponibles))
                     {
                         mensajeResultadoValidacion += "La cantidad solicitada es mayor a la disponible. Modifique la cantidad solicitada\n";
                         sonCamposValidos = false;
                     }
+
+                    if (ConversorUtil.ConvertirStringToInt(cantidadSolicitada) <= 0)
+                    {
+                        mensajeResultadoValidacion += "La cantidad solicitada no puede ser 0 o valor negativo. Modifique la cantidad solicitada\n";
+                        sonCamposValidos = false;
+                    }
+
+                    if (ConversorUtil.ConvertirStringToFloat(precioUnitario) <= 0f)
+                    {
+                        mensajeResultadoValidacion += "El precio unitario no puede ser 0 o valor negativo. Modifique el precio unitario\n";
+                        sonCamposValidos = false;
+                    }
                 }
 
-                if (ConversorUtil.ConvertirStringToInt(cantidadSolicitada) <= 0)
-                {
-                    mensajeResultadoValidacion += "La cantidad solicitada no puede ser 0 o valor negativo. Modifique la cantidad solicitada\n";
-                    sonCamposValidos = false;
-                }
-
-                if (ConversorUtil.ConvertirStringToFloat(precioUnitario) <= 0f)
-                {
-                    mensajeResultadoValidacion += "El precio unitario no puede ser 0 o valor negativo. Modifique el precio unitario\n";
-                    sonCamposValidos = false;
-                }
+                
             }
 
             if (sonCamposValidos != true)
