@@ -29,7 +29,7 @@ namespace VentaRopaMayorista.model
         
         public void CalcularTotalCotizacion()
         {
-            this.totalCotizacion = prendaCotizada.CalcularPrecioFinal();
+            this.totalCotizacion = prendaCotizada.CalcularPrecioFinal() *cantUnidades;
             this.precioPorUnidad = this.prendaCotizada.PrecioUnitario; // el precio por unidad se toma del precio de la prenda, luego 
             
 
