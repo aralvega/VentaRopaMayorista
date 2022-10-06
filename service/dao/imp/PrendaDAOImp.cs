@@ -10,7 +10,7 @@ using VentaRopaMayorista.model.util;
 
 namespace VentaRopaMayorista.service.dao.imp
 {
-    class PrendaDAOImp
+    class PrendaDAOImp:IPrendaDAO
     {
         public void GenerarCatalogo()
         {

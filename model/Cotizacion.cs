@@ -26,7 +26,8 @@ namespace VentaRopaMayorista.model
         }
 
         public int NroIdentificacion { set => nroIdentificacion = value; }
-        
+        public float TotalCotizacion { get => totalCotizacion;}
+
         public void CalcularTotalCotizacion()
         {
             this.totalCotizacion = prendaCotizada.CalcularPrecioFinal() *cantUnidades;
