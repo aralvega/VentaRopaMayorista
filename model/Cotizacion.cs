@@ -14,9 +14,9 @@ namespace VentaRopaMayorista.model
         private float precioPorUnidad;
         private int codigoVendedor;
         private float totalCotizacion;
-        private string prendaCotizada;
+        private Prenda prendaCotizada;
 
-        public Cotizacion(DateTime fechaHora, int cantUnidades, float precioPorUnidad, int codigoVendedor, string prendaCotizada)
+        public Cotizacion(DateTime fechaHora, int cantUnidades, float precioPorUnidad, int codigoVendedor, Prenda prendaCotizada)
         {
             this.fechaHora = fechaHora;
             this.cantUnidades = cantUnidades;
@@ -27,9 +27,11 @@ namespace VentaRopaMayorista.model
 
         public int NroIdentificacion { set => nroIdentificacion = value; }
         
-        public void CalcularTotalCotizacion(float precioPrenda)
+        public void CalcularTotalCotizacion()
         {
-            this.totalCotizacion = precioPrenda * this.cantUnidades;
+            this.precioPorUnidad = this.prendaCotizada.PrecioUnitario; // el precio por unidad se toma del precio de la prenda
+            this.totalCotizacion = precioPorUnidad * this.cantUnidades;
+
         }
 
     }
