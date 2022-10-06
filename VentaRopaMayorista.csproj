@@ -57,6 +57,11 @@
     <Compile Include="model\Pantalon.cs" />
     <Compile Include="model\Prenda.cs" />
     <Compile Include="model\Tienda.cs" />
+    <Compile Include="model\util\CalidadPrendaCte.cs" />
+    <Compile Include="model\util\NombrePrendaCte.cs" />
+    <Compile Include="model\util\TipoCuelloCte.cs" />
+    <Compile Include="model\util\TipoMangaCte.cs" />
+    <Compile Include="model\util\TipoPantalonCte.cs" />
     <Compile Include="model\Vendedor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,5 +87,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
