@@ -10,11 +10,11 @@
 
 - [Patrón MVP](#patron-mvp)
 
-- [Acesso ao projeto](#acesso-ao-projeto)
+- [Acceso al proyecto](#acceso-al-proyecto)
 
-- [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
+- [Abrir y ejecutar el proyecto](#abrir-y-ejecutar-el-proyecto)
 
-- [Desenvolvedores](#desenvolvedores)
+- [Desarrollador](#desarrollador)
 
 ## Descripcion del proyecto 
 
@@ -74,21 +74,15 @@
 
 ###
 
-## Acesso ao projeto
+## Acceso al proyecto
 
-Você pode [acessar o código fonte do projeto](https://github.com/camilafernanda/GlicoCare) ou [baixá-lo](https://github.com/camilafernanda/GlicoCare/archive/refs/heads/main.zip).
+Ud puede [acceder al código del proyecto aqui](https://github.com/aralvega/VentaRopaMayorista.git) y descargarlo dentro del botón CODE.
 
-## Abrir e rodar o projeto
+## Abrir y ejecutar el proyecto
 
-Após baixar o projeto, você pode abrir com o `Android Studio`. Para isso, na tela de launcher clique em:
+Despues de bajar y descomprimir el proyecto utilice Visual Studio Community 2019 🏆 
 
-- `Open an Existing Project` (ou alguma opção similar);
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
-- Por fim clique em `OK`.
+## Desarrollador
 
-O `Android Studio` deve executar algumas tasks do *Gradle* para configurar o projeto, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆 
-
-## Desenvolvedores
-
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/38091359?v=4" width=115><br><sub>Clóvis Ribeiro Júnior</sub>](https://github.com/crovim) |  [<img src="https://avatars.githubusercontent.com/u/37315196?v=4" width=115><br><sub>Guilherme Rossin</sub>](https://github.com/GuilhermeRossin) | [<img src="https://avatars.githubusercontent.com/u/21059035?v=4" width=115><br><sub>Erica Muniz</sub>](https://github.com/Erica08muniz) |
+| <sub>Ariel Alejandro Vega</sub>](https://github.com/aralvega) |
 | :---: | :---: | :---: | :---: 
