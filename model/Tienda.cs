@@ -18,5 +18,20 @@ namespace VentaRopaMayorista.model
             this.direccion = direccion;
             this.catalogo = catalogo;
         }
+
+        public string ObtenerDatos()
+        {
+            return this.nombre + "          " + this.direccion;
+        }
+
+        public string ObtenerDatosCatalogo()
+        {
+            string datosCatalogo = "==============================\n";
+            foreach (Prenda p in catalogo)
+            {
+                datosCatalogo += p.ObtenerDatos() + "==============================\n";
+            }
+            return datosCatalogo;
+        }
     }
 }

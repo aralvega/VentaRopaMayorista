@@ -43,5 +43,10 @@ namespace VentaRopaMayorista.model
             return precioFinal;
         }
 
+        public override string ObtenerDatos()
+        {
+            return base.ObtenerDatos() + "Tipo de Pantalón: " + tipoPantalon + "\n";
+        }
+
     }
 }

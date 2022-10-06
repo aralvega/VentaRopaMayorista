@@ -54,5 +54,10 @@ namespace VentaRopaMayorista.model
             }
             return precioFinal;
         }
+
+        public virtual string ObtenerDatos()
+        {
+            return "Código: " + Codigo + " -- Nombre: " + Nombre + " -- Calidad: " + Calidad + " -- Cantidad: " + Cantidad + "\n";
+        }
     }
 }

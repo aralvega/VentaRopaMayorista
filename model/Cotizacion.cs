@@ -31,8 +31,14 @@ namespace VentaRopaMayorista.model
         {
             this.totalCotizacion = prendaCotizada.CalcularPrecioFinal() *cantUnidades;
             this.precioPorUnidad = this.prendaCotizada.PrecioUnitario; // el precio por unidad se toma del precio de la prenda, luego 
-            
+        }
 
+        public string ImprimirCotizacion()
+        {
+            return "N° Identificacion: " + this.nroIdentificacion + "       Fecha: " + this.fechaHora.ToString("dd/MM/yyyy HH:mm:ss") + "\n" +
+                    "Cant Unidades: " + this.cantUnidades + "       Precio cotizado por unidad: $" + this.precioPorUnidad + "\n" +
+                    "Total Cotización: $" + this.totalCotizacion + "\nCódigo Vendedor: " + this.codigoVendedor + "\n" +
+                    this.prendaCotizada.ObtenerDatos();
         }
 
     }

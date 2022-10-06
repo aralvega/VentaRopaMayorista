@@ -52,8 +52,11 @@ namespace VentaRopaMayorista.model
             precioFinal = base.CalcularPrecioFinal();
 
             return precioFinal;
+        }
 
-            return base.CalcularPrecioFinal();
+        public override string ObtenerDatos()
+        {
+            return base.ObtenerDatos() + "Tipo de Manga: " + tipoManga + " -- Tipo de Cuello: " + tipoCuello + "\n";
         }
 
     }
