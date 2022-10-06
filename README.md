@@ -21,7 +21,7 @@
 <p align="justify">
  En esta aplicación se sumula la cotización de 2 tipos de prendas antes de su posterior venta. Se puede vsualizar el listado de prendas disponibles, ingresar diferentes parámetros que modifican el precio final por unidad de prenda, calcular el total de cotización y finalmente la posibilidad de visualizar las cotizaciones realizadas.
 
-![Pantalla de la aplicacion.](https://drive.google.com/file/d/1eoh51UVrQdzWWe_E0S98S_NSfg7V5vM_/view?usp=sharing)
+![Pantalla de la aplicacion.](https://github.com/aralvega/VentaRopaMayorista/blob/main/imagenes/aplicacion.png)
 </p>
 
 ## Funcionalidades
