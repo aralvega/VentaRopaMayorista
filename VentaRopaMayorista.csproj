@@ -49,10 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="model\util\ConversorUtil.cs" />
     <Compile Include="presenter\TiendaPresenter.cs" />
+    <Compile Include="presenter\ValidadorPresenter.cs" />
     <Compile Include="presenter\VendedorPresenter.cs" />
     <Compile Include="presenter\views\IViewCotizacion.cs" />
     <Compile Include="presenter\views\IViewTienda.cs" />
+    <Compile Include="presenter\views\IViewValidator.cs" />
     <Compile Include="presenter\views\IViewVendedor.cs" />
     <Compile Include="view\CotizadorRopa.cs">
       <SubType>Form</SubType>

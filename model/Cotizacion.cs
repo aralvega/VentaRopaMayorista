@@ -37,7 +37,7 @@ namespace VentaRopaMayorista.model
         public string ImprimirCotizacion()
         {
             return "N° Identificacion: " + this.nroIdentificacion + "       Fecha: " + this.fechaHora.ToString("dd/MM/yyyy HH:mm:ss") + "\n" +
-                    "Cant Unidades: " + this.cantUnidades + "       Precio cotizado por unidad: $" + this.precioPorUnidad + "\n" +
+                    "Cant Unidades cotizadas: " + this.cantUnidades + "       Precio cotizado por unidad: $" + this.precioPorUnidad + "\n" +
                     "Total Cotización: $" + this.totalCotizacion + "\nCódigo Vendedor: " + this.codigoVendedor + "\n" +
                     this.prendaCotizada.ObtenerDatos();
         }

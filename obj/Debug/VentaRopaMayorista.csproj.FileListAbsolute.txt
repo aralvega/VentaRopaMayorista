@@ -1,0 +1,11 @@
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.csproj.AssemblyReference.cache
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.Properties.Resources.resources
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.csproj.GenerateResource.cache
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.csproj.CoreCompileInputs.cache
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\bin\Debug\VentaRopaMayorista.exe.config
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\bin\Debug\VentaRopaMayorista.exe
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\bin\Debug\VentaRopaMayorista.pdb
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\bin\Debug\mysql.data.dll
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.csproj.CopyComplete
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.exe
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.pdb

@@ -57,7 +57,7 @@ namespace VentaRopaMayorista.model
 
         public virtual string ObtenerDatos()
         {
-            return "Código: " + Codigo + " -- Nombre: " + Nombre + " -- Calidad: " + Calidad + " -- Cantidad: " + Cantidad + "\n";
+            return "Código: " + Codigo + " -- Nombre: " + Nombre + " -- Calidad: " + Calidad + "-- Cantidad disponible al momento de consulta: "+Cantidad+"\n";
         }
     }
 }
