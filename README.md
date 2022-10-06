@@ -26,13 +26,21 @@
 
 ## Funcionalidades
 
-:heavy_check_mark: `Funcionalidade 1:` Realizar cadastro dos usuários, podendo ser paciente ou profissional de saúde.
+:heavy_check_mark: `Funcionalidad 1:` Consulta de prendas almacenadas en base de datos.
 
-:heavy_check_mark: `Funcionalidade 2:` Armazenar dados do usuário, como glicemia, atividade física, alimentação, medicação, administração de insulina e peso no banco de dados na Cloud Firestore.
+:heavy_check_mark: `Funcionalidad 2:` Cálculo de la cotización final de cada prenda en base a un conjunto de parámetros:
+- R1. Si la camisa es de manga corta se rebaja el precio un 10%
+- R2. Si la camisa es cuello mao aumenta el precio un 3%
+- R3. Si la camisa es manga corta y cuello mao se aplican las dos reglas anteriores en ese orden.
+- R4. Si el pantalón es chupin, se rebaja el precio un 12%
+- R5. Si la calidad es standard no se modifica el precio
+- R6. Si la calidad es premium se aumenta el precio en un 30%
 
-:heavy_check_mark: `Funcionalidade 3:` Plotar gráfico com histórico dos níveis glicêmicos do paciente.
+:heavy_check_mark: `Funcionalidad 3:` Calcula el precio total de cotización y lo visualiza en pantalla. Además registra la cotización en una lista
 
-:heavy_check_mark: `Funcionalidade 4:` Chat com entre o paciente e profissional da saúde.
+:heavy_check_mark: `Funcionalidad 4:` Consulta de las cotizaciones realizadas.
+
+:heavy_check_mark: `Funcionalidad 4:` Validación de campos.
 
 ## Aplicação
 
