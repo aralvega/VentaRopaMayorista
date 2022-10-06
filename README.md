@@ -6,7 +6,7 @@
 
 - [Funcionalidades](#funcionalidades)
 
-- [Diagrama de clases](#diagrama-de-clases)
+- [Modelado](#modelado)
 
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
 
@@ -42,13 +42,23 @@
 
 :heavy_check_mark: `Funcionalidad 4:` Validación de campos.
 
-## Aplicação
+## Modelado
 
 <div align="center">
 
-![Android Emulator](https://user-images.githubusercontent.com/37356058/135944390-ec96d4ec-ee43-4db9-882f-89be66aad23a.gif)
+![Diagrama de clases](https://github.com/aralvega/VentaRopaMayorista/blob/main/imagenes/DiagramaClases.png)
 
   </div>
+  
+<div align="center">
+
+![Modelo físico de base de datos](https://github.com/aralvega/VentaRopaMayorista/blob/main/base%20de%20datos/diagrama%20fisico.png)
+
+  </div>
+  
+ <p align="justify">
+ - En la carpeta base de datos se encuentra el modelo para ser ejecutado en MySQL Workbench y generar el script de la tabla.
+ - En la carpeta mysql-connector-net-5.2.7-noinstall está el driver para conectarse a la base de datos. En Visual studio hay que configurar la referencia al archivo mysql.data.dll
 
 ###
 
