@@ -8,11 +8,11 @@ namespace VentaRopaMayorista.model
 {
     class Prenda
     {
-        private int codigo; //se agrega este atributo para que se pueda registrar prendas en la base de datos
-        private string nombre; // se considera que el nombre es importante para poder distinguir una prenda
-        private string calidad;
-        private float precioUnitario;
-        private int cantidad;
+        protected int codigo; //se agrega este atributo para que se pueda registrar prendas en la base de datos
+        protected string nombre; // se considera que el nombre es importante para poder distinguir una prenda
+        protected string calidad;
+        protected float precioUnitario;
+        protected int cantidad;
 
         public int Codigo { get => codigo; set => codigo = value; }
         public string Nombre { get => nombre; set => nombre = value; }

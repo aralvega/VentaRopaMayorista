@@ -52,7 +52,9 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="model\Camisa.cs" />
     <Compile Include="model\Cotizacion.cs" />
+    <Compile Include="model\Pantalon.cs" />
     <Compile Include="model\Prenda.cs" />
     <Compile Include="model\Tienda.cs" />
     <Compile Include="model\Vendedor.cs" />
