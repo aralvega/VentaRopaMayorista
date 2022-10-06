@@ -80,7 +80,8 @@ Ud puede [acceder al código del proyecto aqui](https://github.com/aralvega/Vent
 
 ## Abrir y ejecutar el proyecto
 
-Despues de bajar y descomprimir el proyecto utilice Visual Studio Community 2019 🏆 
+Despues de bajar y descomprimir el proyecto utilice Visual Studio Community 2019.
+Tambien puede descargar el ejecutable desde la carpeta ejecutable. 🏆 
 
 ## Desarrollador
 
