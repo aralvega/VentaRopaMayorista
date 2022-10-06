@@ -9,3 +9,7 @@ D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto fi
 D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.csproj.CopyComplete
 D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.exe
 D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.pdb
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\bin\Debug\VentaRopaMayorista.exe.manifest
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\bin\Debug\VentaRopaMayorista.application
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.exe.manifest
+D:\cursos 2022\Curso QuarkAcademy\apuntes y recursos\Modulo POO y C#\Proyecto final\VentaRopaMayorista\obj\Debug\VentaRopaMayorista.application
